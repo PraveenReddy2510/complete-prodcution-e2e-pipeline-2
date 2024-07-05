@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: demoapp
-        image: praveen4712/cicd-pipeline:jenkins-demo-2
+        image: praveen4712/cicd-pipeline:rathan
         ports: 
         - containerPort: 80
