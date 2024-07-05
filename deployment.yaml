@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-ci-cd-app
+  namespace: demoapp-namespace
 spec:
   replicas: 2
-  namespace: demoapp-namespace
   selector:
     mactchLabels:
       app: my-ci-cd-app
