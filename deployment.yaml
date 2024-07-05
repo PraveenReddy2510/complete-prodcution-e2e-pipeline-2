@@ -4,6 +4,7 @@ metadata:
   name: my-ci-cd-app
 spec:
   replicas: 2
+  namespace: demoapp-namespace
   selector:
     mactchLabels:
       app: my-ci-cd-app
